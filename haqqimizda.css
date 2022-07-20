@@ -1,0 +1,229 @@
+body{
+    font-family:'Roboto-Medium',Helvetica , 'Times New Roman', Times, serif ;
+  }
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+    }
+.top_navbar{
+    margin-top: 15px;
+    margin-left: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+.navbar_icon { 
+   background: #3A7B9B;
+   color: white;
+   padding: 10px;
+   border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#phone_number{
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+display: inline;
+margin-left: 25px;
+}
+
+#mail {
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+display: inline;
+margin-left: 25px;
+}
+#uniser{
+    display: inline;
+    margin-left: 50px;
+}
+#search {
+    margin-left: 130px;
+    border: 1px solid #C6E2EB;
+    border-radius: 24px;
+    padding: 4px 12px;
+    width: 190px;
+    height: 48px;
+    display: inline;
+}
+#language{
+    display: inline;
+    margin-left: 40px ;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+#daxil_ol{
+    display: inline;
+    margin-left:45px;
+    cursor: pointer;
+}
+.fa-user{
+ margin-left: 10px ;
+ background: #DCEEF3;
+ padding: 15px;
+ border-radius: 50%;
+}
+
+.navbar {
+    color: #222222;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+.navbar_item{
+    margin-left: 35px;
+    display: inline-block;
+    cursor: pointer;
+}
+#ana_sehife{
+    margin-left: 40px;
+    display: inline-block;
+}
+#haqqimizda{
+  font-weight: 900;
+}
+
+
+/* navbar ends  */
+#group{
+  width: 101%;
+  margin-top: 30px;
+  margin-left: -8px;
+}
+#info1{
+    text-align: center;
+    justify-content: center;
+    margin-left: 255px;
+    margin-right: 275px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+#info2{
+    text-align: center;
+    justify-content: center;
+    margin-top: 24px;
+    margin-left: 255px;
+    margin-right:295px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+.komanda{
+    margin-top: 50px;
+}
+#komanda_uzv {
+    margin-bottom: 70px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.team_img{
+    margin-top:25px;
+    margin-left: 70px;
+    width: 240px;
+    height: 240px;
+}
+.ad_soyad{
+font-family: 'Roboto-Medium';
+font-size: 18px;
+font-weight: 700;
+line-height: 21px;
+letter-spacing: 0em;
+margin-left: 140px;
+}
+.vezife{
+margin-left: 150px;
+font-family: 'Roboto-Medium';
+font-size: 14px;
+font-weight: 300;
+line-height: 16px;
+letter-spacing: 0em;
+}
+.team{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* elaqe starts */
+.elaqe {
+    margin-top: 100px;
+    margin-left: 75px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto' , 'Times New Roman', Times, serif;
+  }
+  .elaqe1{
+    display: flex;
+    flex-direction: column;
+  }
+  #uniser3{
+    margin-left: 50px;
+  }
+  #elaqe_header{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 100px;
+
+  }
+  .elaqe_icon{
+    color: #2F89B6;
+    margin-right: 20px;
+  }
+  .elaqe_icon1{
+    margin-top: 25px;
+    font-size: 14px;
+  }
+  .elaqe_icon2{
+    margin-top: 25px;
+    margin-left: 15px;
+  }
+  .map{
+    position: absolute;
+    margin-top: -250px;
+    margin-left: 310px;
+  }
+  #map_left{
+    margin-left: 220px;
+    display: inline-block;
+    position: relative;
+    border-radius: 35%;
+	  height: 200px;
+	  width: 400px;
+	  border: 2px solid #2F89B6;
+  }
+   /* elaqe ends */
+
+    /* footer starts */
+  #hr_bottom{
+    margin-top: 100px;
+  }
+  .copy1{
+    font-family: 'Roboto';
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+    display: flex;
+    flex-direction: row;
+  }
+  #powered {
+    margin-left: 1000px;
+    
+  }
+   /* footer ends */
