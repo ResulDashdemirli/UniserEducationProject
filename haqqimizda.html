@@ -7,6 +7,8 @@
     <title>Haqqımızda</title>
     <link rel="stylesheet" href="./haqqimizda.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
     <!-- navbar starts -->
@@ -22,7 +24,7 @@
         <div id="mail">uniser.education@uniser.az</div>
         <div id="uniser"><img src="./img/uniseredu 1.png" alt=""></div>
         <input id="search" type="text" placeholder="Search">
-        <div id="language">AZ</div>
+        <div id="language">AZ <i class="fa-solid fa-angle-down language-angle-down"></i></div>
         <div id="daxil_ol">Daxil ol </div> <i class="fa-solid fa-user fa-2x"></i>
     
     </div>
@@ -34,7 +36,31 @@
             <div class="navbar_item"><a href="#"></a>UĞURLARIMIZ</a></div>
             <div class="navbar_item"><a href="#"></a> NƏŞRLƏRİMİZ</a></div>
             <div class="navbar_item"><a href="#"></a>LAYİHƏLƏR</a></div>
-            <div class="navbar_item">İMTAHANLARIMIZ</div>
+            <div class="navbar_item sub-btn"><a href="#"> İMTAHANLARIMIZ <i class="fa-solid fa-angle-down"></i> </a>
+            <ul class="sub-menu">
+                <li class="sub-item more"><a class="more-btn" href="#">İmtahan tarixləri <i class="fa-solid fa-angle-right"></i></a>
+                    <ul class="more-menu">
+                        <li class="more-item"> <a href="#">İbtidai</a></li>
+                        <li class="more-item"> <a href="#">Təkmilləşdirmə</a></li>
+                        <li class="more-item"> <a href="#">Buraxılış</a></li>
+                        <li class="more-item"> <a href="#">Blok</a></li>
+                        <li class="more-item"> <a href="#">MİQ/Sertifikasiya</a></li>
+                    </ul>
+                    </li>
+                <li class="sub-item"><a href="#">İmtahan mövzuları</a></li>
+                
+                <li class="sub-item more"><a class="more-btn" href="#">Online sınaq <i class="fa-solid fa-angle-right"></i></a>
+                    <ul class="more-menu">
+                        <li class="more-item"> <a href="#">Ödənişsiz</a></li>
+                        <li class="more-item"> <a href="#">Vip</a></li>
+                    </ul>
+                    </li>
+
+                <li class="sub-item"><a href="#">İmtahan nəticələri</a></li>
+                
+                </ul>
+            
+            </div>
             <div class="navbar_item"><a href="#"></a> VAKANSİYA</a></div>
         </div>
 

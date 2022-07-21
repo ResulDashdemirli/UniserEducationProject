@@ -5,6 +5,7 @@ a, a:hover, a:focus, a:active {
     text-decoration: none;
     color: inherit;
     }
+/* navbar starts */
 .top_navbar{
     margin-top: 15px;
     margin-left: 20px;
@@ -40,7 +41,7 @@ margin-left: 25px;
     margin-left: 50px;
 }
 #search {
-    margin-left: 130px;
+    margin-left: 110px;
     border: 1px solid #C6E2EB;
     border-radius: 24px;
     padding: 4px 12px;
@@ -55,6 +56,10 @@ margin-left: 25px;
     font-size: 16px;
     line-height: 19px;
 }
+.language-angle-down{
+  cursor: pointer;
+}
+
 #daxil_ol{
     display: inline;
     margin-left:45px;
@@ -63,6 +68,7 @@ margin-left: 25px;
 .fa-user{
  margin-left: 10px ;
  background: #DCEEF3;
+ color: white;
  padding: 15px;
  border-radius: 50%;
 }
@@ -86,6 +92,90 @@ margin-left: 25px;
 #haqqimizda{
   font-weight: 900;
 }
+
+.navbar_item > a {
+  text-decoration: none;
+}
+.navbar_item {
+  transition: 0.3s;
+}
+
+.navbar_item .sub-menu{
+  border-radius: 16px;
+  position: absolute;
+  background:white;
+  font-weight: 400;
+  font-size: 16px;
+  top: 74px;
+  line-height: 40px;
+  list-style: none;
+  pointer-events: none;
+  transform: translateY(20px);
+  margin-top: 83px;
+  margin-left: -10px;
+  padding: 0px;
+  opacity: 0;
+}
+.navbar_item:hover .sub-menu{
+  pointer-events: all;
+  transform: translateY(0);
+  opacity: 1;
+  transition: 0.3s;
+}
+.navbar_item .sub-menu .sub-item {
+  position: relative;
+  padding:7px 0;
+  
+} 
+.navbar_item .sub-menu .sub-item a{
+  text-decoration: none;
+  padding: 15px 30px;
+}
+.navbar_item .sub-menu .sub-item:hover{
+  background: #4080ef;
+}
+.navbar_item .sub-menu .sub-item:last-child:hover{
+  border-radius: 0 0 8px 8px;
+}
+.fa-angle-down{
+  margin-left: 10px;
+  opacity: 50%;
+}
+
+.fa-angle-right{
+  margin-left: 25px;
+  opacity: 50%;
+}
+.more .more-menu{
+  background:#fff;
+  position: absolute;
+  list-style: none;
+  top: 0 ;
+  left: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  pointer-events: none;
+  transform: translateY(20px);
+  opacity: 0;
+  transition: 0.3s;
+  transition-property: transform, opacity;
+  padding: 0px;
+  border-radius: 16px;
+}
+
+.more:hover .more-menu{
+  pointer-events: all;
+  transform: translateY(0);
+  opacity: 1;
+}
+.more .more-menu .more-item{
+  padding: 0px;
+}
+.more .more-menu .more-item:hover{
+  background: #4080ef;
+  
+}
+
 
 
 /* navbar ends  */
@@ -161,52 +251,53 @@ letter-spacing: 0em;
 
 /* elaqe starts */
 .elaqe {
-    margin-top: 100px;
-    margin-left: 75px;
-    display: flex;
-    flex-direction: row;
-    font-family: 'Roboto' , 'Times New Roman', Times, serif;
-  }
-  .elaqe1{
-    display: flex;
-    flex-direction: column;
-  }
-  #uniser3{
-    margin-left: 50px;
-  }
-  #elaqe_header{
-    font-weight: 700;
-    font-size: 20px;
-    margin-top: 100px;
+  background-image: url("./img/Group\ 1249.png");
+  margin-top: 100px;
+  margin-left: 75px;
+  display: flex;
+  flex-direction: row;
+  font-family: 'Roboto' , 'Times New Roman', Times, serif;
+}
+.elaqe1{
+  display: flex;
+  flex-direction: column;
+}
+#uniser3{
+  margin-left: 50px;
+}
+#elaqe_header{
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 50px;
 
-  }
-  .elaqe_icon{
-    color: #2F89B6;
-    margin-right: 20px;
-  }
-  .elaqe_icon1{
-    margin-top: 25px;
-    font-size: 14px;
-  }
-  .elaqe_icon2{
-    margin-top: 25px;
-    margin-left: 15px;
-  }
-  .map{
-    position: absolute;
-    margin-top: -250px;
-    margin-left: 310px;
-  }
-  #map_left{
-    margin-left: 220px;
-    display: inline-block;
-    position: relative;
-    border-radius: 35%;
-	  height: 200px;
-	  width: 400px;
-	  border: 2px solid #2F89B6;
-  }
-   /* elaqe ends */
+}
+.elaqe_icon{
+  color: #2F89B6;
+  margin-right: 20px;
+}
+.elaqe_icon1{
+  margin-top: 25px;
+  font-size: 14px;
+}
+.elaqe_icon2{
+  margin-top: 25px;
+  margin-left: 15px;
+}
+.map{
+  position: absolute;
+  margin-top: -250px;
+  margin-left: 310px;
+}
+#map_left{
+  margin-left: 220px;
+  display: inline-block;
+  position: relative;
+  border-radius: 35%;
+  height: 200px;
+  width: 400px;
+  border: 2px solid #2F89B6;
+}
+ /* elaqe ends */
 
     /* footer starts */
   #hr_bottom{
