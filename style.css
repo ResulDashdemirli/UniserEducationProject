@@ -6,6 +6,7 @@ a, a:hover, a:focus, a:active {
     text-decoration: none;
     color: inherit;
     }
+
 /* navbar starts */
 .top_navbar{
   margin-top: 15px;
@@ -18,10 +19,15 @@ a, a:hover, a:focus, a:active {
  color: white;
  padding: 10px;
  border-radius: 50%;
-  display: inline-block;
-  margin-left: 10px;
-  cursor: pointer;
+ display: inline-block;
+ margin-left: 10px;
+ cursor: pointer;
 }
+.navbar_icon:hover{
+  color: white;
+  background-color: #045279;
+}
+
 #phone_number{
 font-weight: 400;
 font-size: 14px;
@@ -119,7 +125,7 @@ opacity: 0;
 pointer-events: all;
 transform: translateY(0);
 opacity: 1;
-transition: 0.3s;
+transition: 0.4s;
 }
 .navbar_item .sub-menu .sub-item {
 position: relative;
@@ -140,6 +146,27 @@ border-radius: 0 0 8px 8px;
 margin-left: 10px;
 opacity: 50%;
 }
+/* #imtahan-btn {
+  color: #222222;
+  font-family: 'Helvetica Neue';
+  font-weight: 400;
+  font-size: 16px;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+
+  }
+  #imtahan-btn:focus {
+  border: none;
+  outline: none;
+  background: #4080ef;
+  padding: 0px;
+  text-decoration: none;
+  padding: 15px 30px;
+  }
+  #imtahan-btn:focus .more-menu{
+    opacity: 1;
+  } */
 
 .fa-angle-right{
 margin-left: 25px;
@@ -179,12 +206,14 @@ background: #4080ef;
 
 #uniser_2{
   z-index: -5;
+  max-width: 1440px;
+  min-width: 500px;
     margin-top: 30px;
     position: relative;
 }
 #uniser2{
   margin-left: -9px;
-    width: 101%;
+    width: 101.3%;
     height: auto;
     position: relative;
 }
@@ -209,13 +238,14 @@ background: #4080ef;
     text-align: center;
   }
   .fa-message {
-    cursor: pointer;
+    cursor: pointer ;
     color: #D9D9D9;
   }
 /* elaqe starts */
 .elaqe {
   background-image: url("./img/Group\ 1249.png");
   margin-top: 100px;
+  width: 95%;
   margin-left: 75px;
   display: flex;
   flex-direction: row;
@@ -275,9 +305,94 @@ letter-spacing: 0em;
 text-align: left;
 display: flex;
 flex-direction: row;
+justify-content: space-between;
   }
-  #powered {
-    margin-left: 1000px;
-    
-  }
+ 
    /* footer ends */
+
+   /* Responsive Navbar starts */
+  
+   /* navbar ends */
+
+   .responsive_nav {
+    display: none;
+  }
+
+   @media only screen and (max-width: 1000px) {
+
+     .navbar_full{
+      display: none;
+    }
+
+    .responsive_nav {
+      display: flex;
+    }
+    .fa-bars {
+      cursor: pointer;
+      border: 1px solid blue;
+      padding: 15px;
+      /* margin-left: 350px; */
+    }
+    .responsive_nav_top {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    } 
+    #toggle.active{
+      border: 1px solid red ;
+      display: flex;
+      flex-direction: row;
+    }
+    #inner-circle {
+      margin-left: 600px;
+    }
+    #outer-circle{
+      margin-left: 592px;
+    }
+    /* navbar ends */
+
+    /* elaqe ends */
+
+    .elaqe{
+      background-image: none;
+      width: 100%;
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+    }
+    .elaqe1{
+      width: 100%;
+    }
+    .elaqe2 {
+      width: 100%;
+    }
+    #map_left{
+      display: none;
+    }
+    .map{
+      margin:0px;
+      margin-top: 25px;
+      margin-left: -70px;
+    }
+    /* elaqe ends */
+
+    /* footer starts  */
+
+    .footer {
+      display:flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    #hr_bottom{
+      margin-top: 500px;
+    }
+
+
+
+
+
+  
+ }
+
+   
