@@ -327,6 +327,12 @@ justify-content: space-between;
       display: flex;
       flex-direction: column;
     }
+    #daxil_ol_language{
+      margin-left: 50px;
+    }
+    #ana_sehife{
+      margin-top: 45px;
+    }
     .fa-bars {
       cursor: pointer;
       border: 1px solid orange;
@@ -348,7 +354,7 @@ justify-content: space-between;
     .navbar_item{
       cursor: pointer;
       display: block;
-      margin-top: 15px;
+      margin-top: 20px;
     }
     .responsive_navbar{
       display: flex;
