@@ -333,9 +333,12 @@ justify-content: space-between;
     #ana_sehife{
       margin-top: 45px;
     }
+    .active , .fa-bars:hover {
+      background-color: #666;
+      color: white;
+    }
     .fa-bars {
       cursor: pointer;
-      border: 1px solid orange;
       background-color: orange;
       border-radius: 20%;
       padding: 15px;
@@ -401,6 +404,9 @@ justify-content: space-between;
       margin:0px;
       margin-top: 25px;
       margin-left: -70px;
+      width: 100%;
+      max-width: 300px;
+      height: auto;
     }
     /* elaqe ends */
 
@@ -414,7 +420,6 @@ justify-content: space-between;
     #hr_bottom{
       margin-top: 500px;
     }
-
 
    .responsive_navbar{
     display: none;
