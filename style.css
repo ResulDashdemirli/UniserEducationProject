@@ -361,10 +361,10 @@ justify-content: space-between;
       pointer-events: all;
     }
     #inner-circle {
-      margin-left: 600px;
+      margin-left: 320px;
     }
     #outer-circle{
-      margin-left: 592px;
+      margin-left: 312px;
     }
     /* responsive navbar ends */
 
