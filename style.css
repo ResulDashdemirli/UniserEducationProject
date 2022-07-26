@@ -23,9 +23,13 @@ a, a:hover, a:focus, a:active {
  margin-left: 10px;
  cursor: pointer;
 }
+.fa-facebook-f{
+  padding: 10px 12px;
+}
 .navbar_icon:hover{
   color: white;
   background-color: #045279;
+  transform: translateY(-2px);
 }
 
 #phone_number{
@@ -218,7 +222,7 @@ background: #4080ef;
     height: auto;
     position: relative;
 }
-#outer-circle {
+/* #outer-circle {
     background: #385a94;
     border-radius: 50%;
     height:80px;
@@ -226,21 +230,19 @@ background: #4080ef;
     position: relative;
     margin-left: 1210px;
     margin-top: -95px;
-  }
-  #inner-circle {
-    position: relative;
-    background: #2F89B6 ;
-    border-radius: 50%;
-    height: 65px;
-    width: 65px;
-    margin-left: 1218px;
-    margin-top: -72px;
-    align-items: center;
-    text-align: center;
-  }
+  } */
+
   .fa-message {
-    cursor: pointer ;
-    color: #D9D9D9;
+ display: flex;
+align-items: flex-end;
+background: #3A7B9B;
+ color: white;
+ padding: 10px;
+ border-radius: 50%;
+ padding: 20px;
+ display: inline-block;
+ margin-left: 10px;
+ cursor: pointer;
   }
 /* elaqe starts */
 .elaqe {
@@ -366,9 +368,6 @@ justify-content: space-between;
     #inner-circle {
       margin-left: 320px;
     }
-    #outer-circle{
-      margin-left: 312px;
-    }
     /* responsive navbar ends */
 
     .fa-message {
@@ -376,7 +375,11 @@ justify-content: space-between;
       color: #D9D9D9;
     }
 
-    /* elaqe ends */
+    #uniser2{
+      width: 90%;
+    }
+    
+    /* elaqe starts */
 
     .elaqe{
       background-image: none;
@@ -395,7 +398,7 @@ justify-content: space-between;
       margin: 0;
       margin-top: 40px;
       margin-left: -55px;
-      width: 430px;
+      width: 390px;
       height: 370px;
     }
     /* elaqe ends */
