@@ -224,7 +224,6 @@ text-align: left;
 
 /* elaqe starts */
 .elaqe {
-    background-image: url("./img/Group\ 1249.png");
     margin-top: 100px;
     margin-left: 75px;
     display: flex;
@@ -257,18 +256,13 @@ text-align: left;
     margin-left: 15px;
   }
   .map{
+    border: 0px;
+    border-radius: 5%;
+    width: 600px;
+    height: 450px;
     position: absolute;
-    margin-top: -250px;
+    margin-top:-35px;
     margin-left: 310px;
-  }
-  #map_left{
-    margin-left: 220px;
-    display: inline-block;
-    position: relative;
-    border-radius: 35%;
-	  height: 200px;
-	  width: 400px;
-	  border: 2px solid #2F89B6;
   }
    /* elaqe ends */
 
@@ -285,9 +279,131 @@ letter-spacing: 0em;
 text-align: left;
 display: flex;
 flex-direction: row;
+justify-content: space-between;
   }
-  #powered {
-    margin-left: 1000px;
-    
-  }
+ 
    /* footer ends */
+    
+   /* footer ends */
+
+   /* Responsive Navbar starts */
+
+   .responsive_nav {
+    display: none;
+  }
+
+
+   @media only screen and (max-width: 1000px) {
+
+    .navbar_full{
+     display: none;
+   }
+   
+   .responsive_nav {
+     display: flex;
+     flex-direction: column;
+   }
+   #daxil_ol_language{
+     margin-left: 50px;
+   }
+   #ana_sehife{
+     margin-top: 45px;
+   }
+   .active , .fa-bars:hover {
+     background-color: #666;
+     color: white;
+   }
+   .fa-bars {
+     cursor: pointer;
+     background-color: orange;
+     border-radius: 20%;
+     padding: 15px;
+   }
+   .responsive_nav_top {
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       width: 100%;
+   } 
+   .responsive_navbar{
+     justify-content: center;
+     text-align: center;
+     transition: 3s;
+   }
+   .navbar_item{
+     cursor: pointer;
+     display: block;
+     margin-top: 20px;
+   }
+   .responsive_navbar{
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+   }
+
+   #toggle.active.responsive_navbar{
+     opacity: 1;
+     pointer-events: all;
+   }
+   #inner-circle {
+     margin-left: 320px;
+   }
+   #outer-circle{
+     margin-left: 312px;
+   }
+   /* responsive navbar ends */
+
+   .fa-message {
+     cursor: pointer ;
+     color: #D9D9D9;
+   }
+
+
+   .team1 {
+    width: 50%;
+}
+
+
+   /* elaqe ends */
+
+   .elaqe{
+     width: 100%;
+     margin-top: 50px;
+     display: flex;
+     flex-direction: column;
+   }
+   .elaqe1{
+     width: 100%;
+   }
+   .elaqe2 {
+     width: 100%;
+   }
+   .map{
+     margin: 0;
+     margin-top: 40px;
+     margin-left: -55px;
+     width: 460px;
+     height: 370px;
+   }
+   /* elaqe ends */
+
+   /* footer starts  */
+
+   .footer {
+     display:flex;
+     flex-direction: row;
+     justify-content: space-between;
+   }
+   #hr_bottom{
+     margin-top: 550px;
+   }
+
+  .responsive_navbar{
+   display: none;
+  }
+
+  .showHide{
+   display: block;
+ }
+ 
+}
