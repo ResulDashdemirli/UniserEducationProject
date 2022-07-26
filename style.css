@@ -233,7 +233,7 @@ background: #4080ef;
   } */
 
   .fa-message {
- display: flex;
+display: flex;
 align-items: flex-end;
 background: #3A7B9B;
  color: white;
