@@ -185,7 +185,6 @@ margin-left: 25px;
   margin-left: -8px;
 }
 #info1{
-    text-align: center;
     justify-content: center;
     margin-left: 255px;
     margin-right: 275px;
@@ -284,37 +283,157 @@ letter-spacing: 0em;
   margin-left: 15px;
 }
 .map{
+  border: 0px;
+  border-radius: 5%;
+  width: 600px;
+  height: 450px;
   position: absolute;
-  margin-top: -250px;
+  margin-top:-35px;
   margin-left: 310px;
-}
-#map_left{
-  margin-left: 220px;
-  display: inline-block;
-  position: relative;
-  border-radius: 35%;
-  height: 200px;
-  width: 400px;
-  border: 2px solid #2F89B6;
 }
  /* elaqe ends */
 
     /* footer starts */
-  #hr_bottom{
-    margin-top: 100px;
+    #hr_bottom{
+      margin-top: 100px;
+    }
+    .copy1{
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+    }
+   
+     /* footer ends */
+
+
+
+   /* Responsive Haqqimizda starts */
+   .responsive_nav {
+    display: none;
+   }
+
+
+   @media only screen and (max-width: 1000px) {
+
+    .navbar_full{
+     display: none;
+   }
+   
+   .responsive_nav {
+     display: flex;
+     flex-direction: column;
+   }
+   #daxil_ol_language{
+     margin-left: 50px;
+   }
+   #ana_sehife{
+     margin-top: 45px;
+   }
+   .active , .fa-bars:hover {
+     background-color: #666;
+     color: white;
+   }
+   .fa-bars {
+     cursor: pointer;
+     background-color: orange;
+     border-radius: 20%;
+     padding: 15px;
+   }
+   .responsive_nav_top {
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       width: 100%;
+   } 
+   .responsive_navbar{
+     justify-content: center;
+     text-align: center;
+     transition: 3s;
+   }
+   .navbar_item{
+     cursor: pointer;
+     display: block;
+     margin-top: 20px;
+   }
+   .responsive_navbar{
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+   }
+
+   #toggle.active.responsive_navbar{
+     opacity: 1;
+     pointer-events: all;
+   }
+   #inner-circle {
+     margin-left: 320px;
+   }
+   #outer-circle{
+     margin-left: 312px;
+   }
+   /* responsive navbar ends */
+
+   .fa-message {
+     cursor: pointer ;
+     color: #D9D9D9;
+   }
+#info1 {
+  margin: 0;
+  margin-top: 10px;
+  text-align: center;
+}
+#info2 {
+  margin: 0;
+  margin-top: 25px;
+  text-align: center;
+}
+   /* elaqe ends */
+
+   .elaqe{
+     background-image: none;
+     width: 100%;
+     margin-top: 50px;
+     display: flex;
+     flex-direction: column;
+   }
+   .elaqe1{
+     width: 100%;
+   }
+   .elaqe2 {
+     width: 100%;
+   }
+   .map{
+     margin: 0;
+     margin-top: 40px;
+     margin-left: -55px;
+     width: 460px;
+     height: 450px;
+   }
+   /* elaqe ends */
+
+   /* footer starts  */
+
+   .footer {
+     display:flex;
+     flex-direction: row;
+     justify-content: space-between;
+   }
+   #hr_bottom{
+     margin-top: 500px;
+   }
+
+  .responsive_navbar{
+   display: none;
   }
-  .copy1{
-    font-family: 'Roboto';
-font-size: 14px;
-font-weight: 400;
-line-height: 16px;
-letter-spacing: 0em;
-text-align: left;
-    display: flex;
-    flex-direction: row;
-  }
-  #powered {
-    margin-left: 1000px;
-    
-  }
-   /* footer ends */
+
+  .showHide{
+   display: block;
+ }
+ 
+}

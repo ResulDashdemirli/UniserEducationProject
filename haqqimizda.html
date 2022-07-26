@@ -9,10 +9,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="./index.js" defer></script>  
 </head>
 <body>
     <!-- navbar starts -->
-
+<div class="navbar_full">
     <div class="top_navbar">
 
         <i class="navbar_icon fa-brands fa-whatsapp"></i>
@@ -64,7 +65,68 @@
             <div class="navbar_item"><a href="#"></a> VAKANSİYA</a></div>
         </div>
 
+    </div>   
+
         <!-- navbar ends -->
+
+        <!-- navbar responsive starts -->
+        <div class="responsive_nav">
+            
+            <div class="responsive_nav_top">
+                <div id="uniser"><img src="./img/uniseredu 1.png" alt=""></div>
+         
+           <div class="div">
+            <a href="javascript:void(0);" class="icon" id="toggle">
+                <i class="fa fa-bars fa-2x"></i>
+              </a>
+           </div>
+        </div>
+                 <hr>
+        <div class="responsive_navbar" id="responsive_nav_btn">
+            <div id="daxil_ol_language">
+                <div id="language">AZ <i class="fa-solid fa-angle-down language-angle-down"></i></div>
+              <div id="daxil_ol">Daxil ol </div> <i class="fa-solid fa-user fa-2x"></i>
+          </div>
+          
+            <div class="navbar_item" id="ana_sehife"><a href="index.html"> ANA SƏHİFƏ</a></div>
+            <div class="navbar_item" id="haqqimizda"><a href="./haqqimizda.html">HAQQIMIZDA</a></div>
+            <div class="navbar_item"><a href="./xeberler.html">XƏBƏRLƏR </a></div>
+            <div class="navbar_item"><a href="#"></a>UĞURLARIMIZ</a></div>
+            <div class="navbar_item"><a href="#"></a> NƏŞRLƏRİMİZ</a></div>
+            <div class="navbar_item"><a href="#"></a>LAYİHƏLƏR</a></div>
+
+            <div class="navbar_item sub-btn responsive-sub-btn"><a href="#">İMTAHANLARIMIZ <i class="fa-solid fa-angle-down"></i> </a>
+            <ul class="sub-menu">
+                <li class="sub-item   more">
+                    <a class="more-btn" href="#">İmtahan tarixləri <i class="fa-solid fa-angle-right"></i></a>
+                    <ul class="more-menu">
+                        <li class="more-item responsive-sub-item"> <a href="#">İbtidai</a></li>
+                        <li class="more-item responsive-sub-item"> <a href="#">Təkmilləşdirmə</a></li>
+                        <li class="more-item responsive-sub-item"> <a href="#">Buraxılış</a></li>
+                        <li class="more-item responsive-sub-item"> <a href="#">Blok</a></li>
+                        <li class="more-item responsive-sub-item"> <a href="#">MİQ/Sertifikasiya</a></li>
+                    </ul>
+                    </li>
+                <li class="sub-item"><a href="#">İmtahan mövzuları</a></li>
+                
+                <li class="sub-item more"><a class="more-btn" href="#">Online sınaq <i class="fa-solid fa-angle-right"></i></a>
+                    <ul class="more-menu">
+                        <li class="more-item"> <a href="#">Ödənişsiz</a></li>
+                        <li class="more-item"> <a href="#">Vip</a></li>
+                    </ul>
+                    </li>
+
+                <li class="sub-item"><a href="#">İmtahan nəticələri</a></li>
+                
+                </ul>
+            
+            </div>
+            <div class="navbar_item"><a href="#"></a> VAKANSİYA</a></div>
+        </div> 
+            </div> 
+
+        <!-- navbar responsive ends -->
+
         <div ><img id="group" src="./img/Group 11.png" alt=""></div>
         <br>
 
@@ -74,10 +136,11 @@
             Hər hansı bir sahədə ixtisaslaşmaqla yanaşı, fərdlərin şəxsi inkişafına kömək edə biləcək təlim proqramları, həmçinin ictimai qurumlar, təşkilatlar və özəl sektor şirkətləri üçün təlim proqramları, Miq və sertifikasiya, abituriyent hazırlığı, xarici və proqramlaşdırma dilləri, ofis proqramları üzrə təlimlər həyata keçirir.
         </div>
 
+      <!-- Team starts -->
 
         <div class="container komanda">
             <div id="komanda_uzv">UNISER education komandası</div>
-
+        
             <div class="team">
 
                 <div><img class="team_img" src="./img/Ellipse 7.png" alt="">
@@ -116,6 +179,7 @@
             </div>
 
         </div>
+              <!-- Team end -->
 
 
         <div class="elaqe">
@@ -137,11 +201,7 @@
     
     
             <div class="elaqe2">
-                <div id="map_left"></div>
-                    <div class="map"><img src="./img/uniser_map.png" alt=""></div>
-                
-                    
-                    <div id="map_right"></div>
+                <div><iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12156.250016050535!2d49.8280919!3d40.3853073!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5bb847314b10a9a0!2sUNISER%20Group!5e0!3m2!1sen!2s!4v1658812517554!5m2!1sen!2s"   allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
             </div>
         </div>
         <hr id="hr_bottom">
